@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+    <display_name>Comentarios de Facebook</display_name>
+    <icon>fa-facebook-official</icon>
+    <description>
+        Plugin de comentarios de Facebook. Requiere una id de aplicación.
+    </description>
+
+    <settings_data>
+        <title>Comentarios de Facebook</title>
+
+        <specs key="appid">
+            <title>App Id</title>
+            <description><![CDATA[
+                Especifica la id de aplicación de Facebook para tu sitio web.
+            ]]></description>
+            <type>number</type>
+        </specs>
+
+        <specs key="widget_width">
+            <title>Ancho del widget</title>
+            <description><![CDATA[
+                Por defecto, el widget es ajustado al  <code>100%</code> del contenedor.
+                Puedes cambiarlo aquí.<br>
+                <i class="fa fa-warning"></i>
+                <b>Advertencia:</b> puede romper la distribución de la plantilla.
+            ]]></description>
+            <type>text</type>
+        </specs>
+
+        <specs key="amount_shown">
+            <title>Comentarios a mostrar</title>
+            <description><![CDATA[
+                Especifica la cantidad de comentarios a mostrar por post.
+                Valor predeterminado: <code>10</code>.
+            ]]></description>
+            <type>number</type>
+        </specs>
+
+    </settings_data>
+
+</language>

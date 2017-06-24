@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    
+    <display_name>Facebook Comments</display_name>
+    <icon>fa-facebook-official</icon>
+    <description>
+        Facebook Comments Plugin for Facebook. Requires a Facebook App id.
+    </description>
+    
+    <settings_data>
+        <title>Facebook Comments</title>
+        
+        <specs key="appid">
+            <title>App Id</title>
+            <description><![CDATA[
+                Specify the Facebook App Id for your website.
+            ]]></description>
+            <type>number</type>
+        </specs>
+        
+        <specs key="widget_width">
+            <title>Widget width</title>
+            <description><![CDATA[
+                By default the widget is adjusted to the <code>100%</code> of the container.
+                You can change it here.<br>
+                <i class="fa fa-warning"></i>
+                <b>Warning:</b> it may break the template layout.
+            ]]></description>
+            <type>text</type>
+        </specs>
+        
+        <specs key="amount_shown">
+            <title>Amount of comments to show</title>
+            <description><![CDATA[
+                Specify the amount of comments to show.
+                Default value: <code>10</code>.
+            ]]></description>
+            <type>number</type>
+        </specs>
+        
+    </settings_data>
+    
+</language>
