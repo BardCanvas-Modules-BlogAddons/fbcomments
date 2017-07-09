@@ -22,7 +22,7 @@
             <title>Ancho del widget</title>
             <description><![CDATA[
                 Por defecto, el widget es ajustado al  <code>100%</code> del contenedor.
-                Puedes cambiarlo aquí.<br>
+                Puedes cambiarlo aquí especificando la medida en pixeles (sólo el número) o un porcentaje.<br>
                 <i class="fa fa-warning"></i>
                 <b>Advertencia:</b> puede romper la distribución de la plantilla.
             ]]></description>

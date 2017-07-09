@@ -22,7 +22,7 @@
             <title>Widget width</title>
             <description><![CDATA[
                 By default the widget is adjusted to the <code>100%</code> of the container.
-                You can change it here.<br>
+                You can change it here specifying an integer number of pixels or a percentage.<br>
                 <i class="fa fa-warning"></i>
                 <b>Warning:</b> it may break the template layout.
             ]]></description>
