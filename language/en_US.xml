@@ -11,7 +11,7 @@
         <title>Facebook Comments</title>
         
         <specs key="appid">
-            <title>App Id</title>
+            <title>Facebook App Id</title>
             <description><![CDATA[
                 Specify the Facebook App Id for your website.
             ]]></description>

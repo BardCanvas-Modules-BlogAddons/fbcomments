@@ -11,7 +11,7 @@
         <title>Comentarios de Facebook</title>
 
         <specs key="appid">
-            <title>App Id</title>
+            <title>Id de aplicación de Facebook</title>
             <description><![CDATA[
                 Especifica la id de aplicación de Facebook para tu sitio web.
             ]]></description>
