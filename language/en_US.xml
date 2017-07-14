@@ -13,7 +13,12 @@
         <specs key="appid">
             <title>Facebook App Id</title>
             <description><![CDATA[
-                Specify the Facebook App Id for your website.
+                Specify the Facebook App Id for your website.<br>
+                <i class="fa fa-info-circle"></i>
+                <b>Warning:</b> if you're using any other module for Facebook
+                (like the Single Sign On module),
+                you must make sure that you're using the same App Id or the Facebook SDK
+                will fail.
             ]]></description>
             <type>number</type>
         </specs>

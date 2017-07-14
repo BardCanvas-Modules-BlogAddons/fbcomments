@@ -24,9 +24,17 @@ global $settings, $template;
 
 if( $template->layout == "admin" ) return;
 if( $template->layout == "embeddable" ) return;
-if( $settings->get("modules:fbcomments.appid") == "" ) return;
+if( $template->get("facebook_root_div_rendered") ) return;
+
+$app_id = $config->globals["facebook_app_id"];
+if( empty($app_id) ) $app_id = $settings->get("modules:fbcomments.appid");
+if( empty($app_id) ) return;
+
+$config->globals["facebook_app_id"] = $app_id;
+$template->set("facebook_root_div_rendered", true);
 ?>
 
-<!-- fbcomments post-footer -->
+<!-- Facebook Root div - rendered by fbcomments post-footer -->
+
 <div id="fb-root"></div>
 

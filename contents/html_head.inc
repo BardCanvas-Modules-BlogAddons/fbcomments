@@ -24,14 +24,19 @@ global $settings, $template;
 
 if( $template->layout == "admin" ) return;
 if( $template->layout == "embeddable" ) return;
+if( $template->get("facebook_js_sdk_loaded") ) return;
 
-$app_id = $settings->get("modules:fbcomments.appid");
+$app_id = $config->globals["facebook_app_id"];
+if( empty($app_id) ) $app_id = $settings->get("modules:fbcomments.appid");
 if( empty($app_id) ) return;
 
+$config->globals["facebook_app_id"] = $app_id;
 $lang = $settings->get("engine.default_language");
+$template->set("facebook_js_sdk_loaded", true);
 ?>
 
-<!-- fbcomments head -->
+<!-- Facebook SDK - preloaded by fbcomments -->
+
 <script>
     (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

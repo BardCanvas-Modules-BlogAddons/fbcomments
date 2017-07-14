@@ -13,7 +13,12 @@
         <specs key="appid">
             <title>Id de aplicación de Facebook</title>
             <description><![CDATA[
-                Especifica la id de aplicación de Facebook para tu sitio web.
+                Especifica la id de aplicación de Facebook para tu sitio web.<br>
+                <i class="fa fa-info-circle"></i>
+                <b>Advertencia:</b> si estás usando algún otro módulo para Facebook
+                (como lo es el módulo de Inicio de Sesión Único),
+                debes asegurarte de que estás usando la misma id de aplicación o el
+                kit de servicios de Facebook fallará.
             ]]></description>
             <type>number</type>
         </specs>
