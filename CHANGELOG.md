@@ -1,6 +1,11 @@
 
 # Facebook Comments Module Change Log
 
+## [1.1.0] - 2017-07-14
+
+- Language tuning.
+- Reworked template insertion points to prevent multiple calls by other Facebook-based modules.
+
 ## [1.0.2] - 2017-07-11
 
 - Language tuning.
