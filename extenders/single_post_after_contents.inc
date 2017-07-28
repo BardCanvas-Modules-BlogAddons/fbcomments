@@ -24,6 +24,8 @@ global $post, $template, $language, $settings, $account, $config;
 if( $config->globals["modules:fbcomments.avoid_extension:posts/front/single_post_after_contents"] ) return;
 
 if( $settings->get("modules:fbcomments.appid") == "" ) return;
+if( empty($post) ) return;
+if( $post->status != "published" ) return;
 if( $post->allow_comments == 0 ) return;
 
 # We override the comments injection
