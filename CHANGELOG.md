@@ -1,6 +1,10 @@
 
 # Facebook Comments Module Change Log
 
+## [1.1.1] - 2017-07-29
+
+- Added check to avoid rendering in unpublished posts.
+
 ## [1.1.0] - 2017-07-14
 
 - Language tuning.
